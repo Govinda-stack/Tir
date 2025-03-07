@@ -1,0 +1,436 @@
+body {
+  margin: 0;
+  font-family: "Poppins";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p{
+  line-height: 24px;
+}
+
+.navbar li {
+  font-size: 16px;       /* Set font size for list items */
+}
+
+.section-1,
+.section-2,
+.our-ser,
+.navbar,
+.Faq,
+.whtwedo,
+.footer {
+background-color: black;
+}
+/* nav */
+.lins ul {
+  display: flex;
+  gap: 5em;
+}
+
+.lins {
+  display: flex;
+  gap: 3em;
+  align-items: center;
+}
+button.chakra-button.css-1ocnt5x:HOVER {
+  COLOR: BLACK;
+}
+
+.att {
+  background: #2E140D !important;
+  color: #FF7F32;
+  padding: 14px 26px !important;
+  box-shadow: 0px 0px 37px;
+}
+button{
+  /* font-family: switzer !important; */
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  padding: 20px 25px;
+
+}
+button.chakra-button.att.f.css-kcj133 {
+  position: relative;
+  bottom: 45px;
+}
+main.bnerr {
+  background: black;
+  /* padding: 80px 0px; */
+}
+button.chakra-button.css-1ocnt5x {
+  color: white;
+}
+h1,h2,h3,h4,h5,p {
+  color: white;
+
+}
+p{
+  font-size: 16px;
+}
+.css-0 {
+  margin: 0 auto;
+}
+section.main-baner h2 {
+  font-size: 56px;
+  line-height: 73px;
+  text-align: center;
+
+}
+section.main-baner p{
+  text-align: center;
+}
+span.lall {
+  color: #FF7F32;
+}
+.container.lower {
+  padding: 40px 0px;
+  margin: 0 auto;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+
+section.section-2.exllence h2 {
+  font-size: 40px;
+  text-align: center;
+}
+section.section-2.exllence p {
+  text-align: center;
+  }
+  .items {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    padding: 20px;
+    background: #1B1B1B;
+    border-radius: 8px;
+    height: 335px;
+    width: 560px;
+    border: solid 1px #ffffff20;
+    transition: .2s all ease;
+}
+.items:hover {
+  border-color: #B7B7B7;
+  background: #b7b7b736;
+}
+.inner-itmes {
+  align-content: end;
+  padding-bottom: 15px;
+}
+.inner-itmes img {
+  border: solid 1px #B7B7B7;
+  border-radius: 50px;
+}
+.items h5 {
+  font-size: 24px;
+  padding-bottom: 0.7em;
+}
+.inner-itmes p{
+  text-align: unset !important;
+}
+.LAST button.chakra-button.att.css-kcj133 {
+  POSITION: RELATIVE;
+  RIGHT: 100%;
+}
+
+
+.our-ser{
+  padding: 50px 10px;
+  background-image: url(./services/ser-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.our-ser .f-box h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.our-ser .f-box p {
+  text-align: center;
+  }
+
+  .tb{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    background: #1B1B1B;
+    border-radius: 8px;
+    flex-direction: column;
+    border: solid 2px #ffffff20;
+    transition: .2s all ease;
+    filter: brightness(1);
+    height: 470px;
+    width: 470px;
+
+
+
+  }
+
+  .tb:hover{
+    border-color: #B7B7B7;
+
+  }
+  .tb:hover .broder{
+    border-color: #B7B7B7;
+
+  }
+  .tb:hover h5{
+    color: #FF7F32;
+
+  }
+
+  .tb h5{
+font-size: 24px;
+padding: 25px;
+transition: .2s all ease;
+
+  }
+
+  .broder {
+    border-top: solid 2px #ffffff20;
+    padding: 25px;
+    transition: .2s all ease;
+
+
+}
+
+.t-box:nth-child(2) {
+  padding: 25px;
+  padding-bottom: 32px;
+}
+
+section.whtwedo {
+  padding: 50px 0px;
+
+}
+.why {
+  width: 400px;
+  height: auto;
+}
+.why .broder {
+  padding: 26px 48px 40px 48px;
+}
+.why.tb h5 {
+  padding: 26px 48px 30px 48px;
+}
+
+.Faq{
+  padding: 50px 0px;
+}
+
+.Faq .f-box h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.Faq .f-box p {
+  text-align: center;
+  }
+
+  .accordins {
+    width: 1000px;
+}
+
+.accordins .chakra-accordion__item {
+  margin: 25px 0px;
+padding: 20px;
+  background: #1B1B1B;
+  transition: .2s all ease;
+
+  border: solid 1px #ffffff20;
+  border-radius: 8px;
+}
+.accordins .chakra-accordion__item:hover{
+  border: solid 1px #B7B7B7;
+}
+
+
+
+.chakra-accordion__itemContent {
+  color: #B7B7B7;
+  margin-top: 1em;
+
+}
+
+.chakra-stack p {
+  font-size: 22px;
+  color: #B7B7B7;
+  transition: .2s all ease;
+
+}
+.accordins button{
+  padding: 0;
+}
+
+[data-state="open"] .text-active {
+  color: #FF7F32; /* Change the color to your desired value */
+}
+[data-state="open"] .accordion-arrow {
+  transform: rotate(180deg); /* Arrow points up when open */
+}
+
+.accordion-arrow {
+  transition: transform 0.2s ease; /* Smooth rotation animation */
+}
+
+.accordins .accordion-arrow svg {
+  fill: white;
+  font-size: 32px;
+}
+.accordins button {
+
+  justify-content: space-between;
+}
+.accordins .chakra-stack.css-44c6y4 {
+  display: contents;
+
+}
+.accordins p.text-active.css-0 {
+  margin: 0;
+}
+
+
+.contact-section {
+width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 34px;
+}
+
+.contact-intro > * + * {
+  margin-top: 1rem;
+}
+
+.contact-title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+.contact-description {
+  color: rgb(107 114 128);
+}
+
+.form-group-container {
+  display: grid;
+  gap: 1.5em;
+  margin-top: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  color: #e5e7eb;
+}
+
+.form-input,
+.form-textarea {
+  padding: 0.5rem;
+  border: solid 1px #ffffff20;
+  display: flex;
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  background: unset;
+}
+
+.form-input::placeholder,
+.form-textarea:focus-visible {
+  color: #6b7280;
+}
+
+.form-input:focus-visible,
+.form-textarea:focus-visible {
+  outline: 1px solid #B7B7B7;
+  outline-offset: 2px;
+}
+
+.form-textarea {
+  min-height: 120px;
+}
+
+.form-submit {
+  width: 100%;
+  margin-top: 1.2rem;
+  background-color: #FF7F32;
+  color: #fff;
+  padding: 13px 5px;
+  border-radius: 0.375rem;
+}
+
+.logos {
+  display: flex;
+  gap: 1em;
+}
+
+.logos img {
+  border: solid 1px #B7B7B7;
+  border-radius: 50px;
+  transition: .2s all ease;
+}
+.logos img:hover{
+  transform: scale(1.08);
+  border-color: white;
+}
+.social img:hover{
+  transform: scale(1.1);
+}
+.txt h5 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.txt {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+
+.cf {
+  border-radius: 8px;
+  background: #1B1B1B;
+}
+
+section.footer {
+  background-image: url(./footer/Ft-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.social {
+  display: flex;
+  gap: 24px;
+}
+.cpy{
+  text-align: center;
+  padding-bottom: 40px;
+}
+.lins li:hover {
+  color: #FF7F32 !important;
+  cursor: pointer;
+}
+
+.below-content h3 {
+  font-size: 20px;
+}
+.below-content p {
+  font-size: 14px;
+}
+.blogs h2.chakra-heading.css-1dqmyqn {
+  font-size: 40px;
+  /* text-align: center; */
+}
+.form-input, .form-textarea, select {
+
+  color: white;
+}
+
+.cta .css-17vudbb {
+  align-items: center;
+  display: flex;
+}

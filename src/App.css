@@ -1,0 +1,86 @@
+.slider-div {
+  height: 371px;
+  width: 420px;
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+  position: relative;
+  background-color: transparent;
+  border: 1px #b7b7b752 solid;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.blogs{
+    background-color: black;
+}
+.blogs-images{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.below-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+.arrowIcons{
+    border-radius: 50%;
+    border: 2px solid #666666CC;
+}
+
+.below-content svg {
+  fill: #ffffff9c;
+  width: 40px;
+  height: 40px;}
+.text-section{
+    display: block;
+}
+
+
+
+
+/* my css */
+
+.form-group-row {
+    display: flex;
+    gap: 20px;
+  }
+
+  .form-group {
+    flex: 1;
+  }
+  .form-group-row {
+    display: flex;
+    gap: 20px;
+    align-items: end;
+  }
+
+  .form-group {
+    flex: 1;
+  }
+
+  .form-input,
+  .form-textarea,
+
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #1B1B1B;
+    border-radius: 5px;
+  }
+
+  .form-textarea {
+    height: 150px;
+  }
+
+  button.form-submit {
+    width: fit-content;
+    border: none;
+    padding: 10px 34px;
+  }
+
+  /* .form-submit:hover {
+    background-color: #0056b3;
+  } */
